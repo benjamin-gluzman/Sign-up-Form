@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Norse";
+    src: url("Norsebold.otf") format("opentype");
+}
+
+body {
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100%;
+    flex: 2;
+    background-image: url("images/plant.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+    span {
+        text-decoration: underline;
+    }
+}
+
+.logo {
+    font-family: "Norse";
+    background-color: #00000075;
+    height: 20em;
+    width: 100%;
+    margin-top: 15em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.odin-img {
+    height: 75%;
+}
+
+.odin-text {
+    font-size: 14em;
+}
+
+.right {
+    flex: 3;
+}
